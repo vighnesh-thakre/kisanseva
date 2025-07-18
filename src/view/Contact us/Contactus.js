@@ -20,7 +20,7 @@ import WeatherApp from './../../Componant/Weather app/WeatherApp'
             <div class="card-container">
         <div class="card1">
             <img src="https://avatars.githubusercontent.com/u/124059426?v=4" class="image" /><br /><br />
-            <b class="name">Pushpak Parkhe</b><br /><br />
+            <b class="name">Vighnesh Thakre</b><br /><br />
             <p class="info">Hii! I am pushpak parkhe. I am currently pursuing Bca (final) from GHRUA, Nagpur
             </p>
             <div class="social-contact">
