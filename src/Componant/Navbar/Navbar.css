@@ -1,0 +1,38 @@
+nav{
+  background-color: rgba(40, 236, 144, 0.664);
+   height: 90px;
+   position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  
+}
+.navbar-img{
+  width: 100px;
+  height: 90px;
+  margin-left: 10px;
+  margin-right: 20px;
+}
+.nav-link{
+  font-size: 19px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.form-select{
+  width: 200px;
+  height: 45px;
+}
+
+.login-img{
+  margin-left: 40px;
+  margin-right: 20px;
+  height: 55px;
+  width: 55px;
+}
+.btn8{
+  background-color: rgba(236, 174, 40, 0.957);
+  border-radius: 15px;
+  height: 50px;
+  width: 100px;
+  border-color: rgba(173, 176, 176, 0.222);
+  margin-left: 20px;
+  
+}

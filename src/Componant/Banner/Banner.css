@@ -1,0 +1,57 @@
+.card-slider{
+    position: relative;
+    height: 500px;
+    width: 100%;
+    }
+    .card-slider-img{
+    height: 500px;
+    width: 100%;
+    object-fit: fill;
+    }
+    
+   .h11{
+        color: rgba(240, 205, 48, 0.938);
+        font-size: 40px;
+        width: 650px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .paragraph{
+        color: rgba(250, 246, 246, 0.856);
+        font-size: 18px;
+        width: 650px;
+        padding-left: 60px;
+    }
+
+    @media screen and (max-width: 991px) {
+
+        .card-slider{
+            position: relative;
+            height: 250px;
+            width: 100%;
+            }
+            .card-slider-img{
+            height: 250px;
+            width: 100%;
+            object-fit: cover;
+            }
+            
+           .h11{
+                color: rgba(240, 205, 48, 0.938);
+                font-size: 15px;
+                width: 300px;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            }
+            .paragraph{
+                color: rgba(250, 246, 246, 0.856);
+                font-size: 12px;
+                width: 350px;
+                
+            }
+            
+            .carousel-control-next{
+                margin-top: 100px;
+            }
+            .carousel-control-prev{
+                margin-top: 100px;
+            }
+        }

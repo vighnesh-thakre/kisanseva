@@ -1,0 +1,118 @@
+.contener{
+    display:grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: center;
+    column-gap: 35px;
+    row-gap: 35px;
+    margin-top: 50px;
+
+}
+.card{
+position: relative;
+height: 330px;
+width: 260px;
+}
+.card:hover{
+    box-shadow: 0 0 10px rgb(8, 19, 83);
+    }
+.card-img{
+height: 330px;
+width: 260px;
+object-fit: cover;
+}
+.card-img:hover{
+    box-shadow: 0 0 10px rgb(45, 55, 112);
+    }
+.card-text{
+    position: absolute;
+    top: 20px;
+    padding: 10px;
+    margin-left: 30px;
+    margin-top: 160px;
+    background: rgba(0, 0, 0, 0.514);
+    
+}
+.card-text1{
+    position: absolute;
+    top: 20px;
+    padding: 10px;
+    margin-left: 10px;
+    margin-top: 160px;
+    background: rgba(0, 0, 0, 0.514);
+    
+}
+
+
+
+.h2{
+    color: whitesmoke;
+    text-size: 10px ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+button{
+    background-color: rgb(243, 154, 39) ;
+    color: rgb(247, 248, 248);
+    padding: 10px;
+    font-size: 17px;
+    border-radius: 20px 0px 20px 0px;
+    border-color:rgb(250, 154, 29);
+    margin-left: 10px;
+    width: 130px;
+}
+@media screen and (max-width: 991px) {
+    
+ .contener{
+        display:grid;
+        grid-template-columns: auto auto ;
+        justify-content: center;
+        column-gap: 10px;
+        row-gap: 10px;
+        
+    
+    }
+    .card{
+    position: relative;
+    height: 220px;
+    width: 160px;
+
+    }
+    .card-img{
+    height: 220px;
+    width: 160px;
+    object-fit: cover;
+    }
+    .card-text{
+        position: absolute;
+        top: 30px;
+        padding: 10px;
+        margin-left: 18px;
+        margin-top: 80px;
+        background: rgba(0, 0, 0, 0.514);
+    
+    }
+    .card-text1{
+        position: absolute;
+        top: 30px;
+        
+        margin-top: 80px;
+        background: rgba(0, 0, 0, 0.514);
+    
+    }
+    .h2{
+        color: whitesmoke;
+        font-size: 18px ;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    }
+    button{
+        background-color: rgb(243, 154, 39) ;
+        color: rgb(232, 238, 238);
+        padding: 5px;
+        font-size: 20px;
+        border-radius: 20px 0px 20px 0px;
+        border-color:rgb(250, 154, 29);
+         height: 50px;
+        width: 130px;
+    }
+    
+}
+    
